@@ -24,7 +24,3 @@ def day_one_part_two(input_data):
         required_fuel = calc_required_fuel(fuel)
         single_required_fuel.append(required_fuel)
     return np.sum(single_required_fuel)
-
-
-
-
